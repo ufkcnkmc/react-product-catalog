@@ -1,0 +1,206 @@
+{
+  "categories": [
+    { "id": 1, "categoryName": "Phones", "seoUrl": "phones" },
+    { "id": 2, "categoryName": "Computers", "seoUrl": "computers" },
+    { "id": 3, "categoryName": "Tablets", "seoUrl": "tablets" },
+    { "id": 4, "categoryName": "Wearables", "seoUrl": "wearables" },
+    { "id": 5, "categoryName": "Accessories", "seoUrl": "accessories" },
+    { "id": 6, "categoryName": "Smart Home", "seoUrl": "smart-home" },
+    { "id": 7, "categoryName": "Gaming", "seoUrl": "gaming" },
+    { "id": 8, "categoryName": "Audio", "seoUrl": "audio" }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "categoryId": 1,
+      "productName": "iPhone 13",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": 999,
+      "unitsInStock": 50
+    },
+    {
+      "id": 2,
+      "categoryId": 1,
+      "productName": "Samsung Galaxy S21",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": 799,
+      "unitsInStock": 75
+    },
+    {
+      "id": 3,
+      "categoryId": 1,
+      "productName": "Google Pixel 6",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": 699,
+      "unitsInStock": 40
+    },
+    {
+      "id": 4,
+      "categoryId": 2,
+      "productName": "MacBook Pro",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": 1299,
+      "unitsInStock": 30
+    },
+    {
+      "id": 5,
+      "categoryId": 2,
+      "productName": "Dell XPS 13",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": 999,
+      "unitsInStock": 45
+    },
+    {
+      "id": 6,
+      "categoryId": 2,
+      "productName": "HP Spectre x360",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": 1099,
+      "unitsInStock": 20
+    },
+    {
+      "id": 7,
+      "categoryId": 3,
+      "productName": "iPad Pro",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": 799,
+      "unitsInStock": 60
+    },
+    {
+      "id": 8,
+      "categoryId": 3,
+      "productName": "Samsung Galaxy Tab S7",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": 649,
+      "unitsInStock": 35
+    },
+    {
+      "id": 9,
+      "categoryId": 3,
+      "productName": "Microsoft Surface Pro 7",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": 749,
+      "unitsInStock": 25
+    },
+    {
+      "id": 10,
+      "categoryId": 4,
+      "productName": "Apple Watch Series 7",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": 399,
+      "unitsInStock": 80
+    },
+    {
+      "id": 11,
+      "categoryId": 4,
+      "productName": "Samsung Galaxy Watch 4",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": 249,
+      "unitsInStock": 70
+    },
+    {
+      "id": 12,
+      "categoryId": 4,
+      "productName": "Fitbit Versa 3",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": 229,
+      "unitsInStock": 90
+    },
+    {
+      "id": 13,
+      "categoryId": 5,
+      "productName": "Apple AirPods Pro",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": 249,
+      "unitsInStock": 100
+    },
+    {
+      "id": 14,
+      "categoryId": 5,
+      "productName": "Samsung Galaxy Buds Pro",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": 199,
+      "unitsInStock": 85
+    },
+    {
+      "id": 15,
+      "categoryId": 5,
+      "productName": "Sony WH-1000XM4",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": 349,
+      "unitsInStock": 55
+    },
+    {
+      "id": 16,
+      "categoryId": 6,
+      "productName": "Amazon Echo (4th Gen)",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": 99,
+      "unitsInStock": 200
+    },
+    {
+      "id": 17,
+      "categoryId": 6,
+      "productName": "Google Nest Hub",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": 89,
+      "unitsInStock": 150
+    },
+    {
+      "id": 18,
+      "categoryId": 6,
+      "productName": "Philips Hue White and Color Ambiance",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": 49,
+      "unitsInStock": 120
+    },
+    {
+      "id": 19,
+      "categoryId": 7,
+      "productName": "PlayStation 5",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": 499,
+      "unitsInStock": 25
+    },
+    {
+      "id": 20,
+      "categoryId": 7,
+      "productName": "Xbox Series X",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": 499,
+      "unitsInStock": 30
+    },
+    {
+      "id": 21,
+      "categoryId": 7,
+      "productName": "Nintendo Switch",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": 299,
+      "unitsInStock": 75
+    },
+    {
+      "id": 22,
+      "categoryId": 8,
+      "productName": "Bose QuietComfort 35 II",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": 299,
+      "unitsInStock": 65
+    },
+    {
+      "id": 23,
+      "categoryId": 8,
+      "productName": "JBL Flip 5",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": 119,
+      "unitsInStock": 90
+    },
+    {
+      "id": 24,
+      "categoryId": 8,
+      "productName": "Sonos One",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": 199,
+      "unitsInStock": 40
+    }
+  ]
+}
