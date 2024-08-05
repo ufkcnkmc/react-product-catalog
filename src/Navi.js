@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './styles.css'; // CSS dosyasını import edin
 import {
   Collapse,
   Navbar,
@@ -11,38 +12,43 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
-  NavbarText,
 } from 'reactstrap';
 
 function Navi({ cart }) {
   const [isOpen, setIsOpen] = useState(false);
+  const [dropdownOpen, setDropdownOpen] = useState(false);
 
-  const toggle = () => setIsOpen(!isOpen);
+  const toggleNavbar = () => setIsOpen(!isOpen);
+
+  const toggleDropdown = (e) => {
+    e.preventDefault(); // Default davranışı engelle
+    setDropdownOpen(prevState => !prevState); // Dropdown'un açık veya kapalı olma durumunu güncelle
+  };
 
   return (
     <div>
-      <Navbar>
+      <Navbar className="navbar-custom">
         <NavbarBrand href="/">Product App</NavbarBrand>
-        <NavbarToggler onClick={toggle} />
+        <NavbarToggler onClick={toggleNavbar} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="me-auto" navbar>
             <NavItem>
               <NavLink href="/components/">Components</NavLink>
             </NavItem>
 
-            <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
-                Cart 
+            <UncontrolledDropdown nav inNavbar isOpen={dropdownOpen}>
+              <DropdownToggle nav caret onClick={toggleDropdown}>
+                Cart
               </DropdownToggle>
-              <DropdownMenu right>
+              <DropdownMenu className="dropdown-menu-custom" right>
                 {cart.length > 0 ? (
                   cart.map((item, index) => (
-                    <DropdownItem key={index}>
+                    <DropdownItem className="dropdown-item-custom" key={index}>
                       {item.product.productName} - quantity: {item.quantity}
                     </DropdownItem>
                   ))
                 ) : (
-                  <DropdownItem>Sepette ürün yok</DropdownItem>
+                  <DropdownItem className="dropdown-item-custom">No products in the basket</DropdownItem>
                 )}
               </DropdownMenu>
             </UncontrolledDropdown>

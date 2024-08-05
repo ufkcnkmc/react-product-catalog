@@ -1,0 +1,13 @@
+.app-container {
+    background-color: #F3F7EC;
+    min-height: 100vh;
+    color: #fff;
+  }
+  
+  .category-list-title {
+    color: #000; 
+  }
+  
+  .product-list-title {
+    color: #000; 
+  }

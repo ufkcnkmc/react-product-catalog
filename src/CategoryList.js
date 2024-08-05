@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { ListGroup, ListGroupItem } from "reactstrap";
+import "./styles.css"; // CSS dosyasını import edin
 
 export default class CategoryList extends Component {
   state = {
@@ -18,18 +19,16 @@ export default class CategoryList extends Component {
 
   render() {
     return (
-      <div>
-        <h3>{this.props.info.title}</h3>
+      <div className="category-list">
+        <h3 className="category-list-title">{this.props.info.title}</h3>
         <ListGroup>
           {this.state.categories.map((category) => (
             <ListGroupItem
-              active={
-                category.categoryName === this.props.currentCategory
-                  ? true
-                  : false
-              }
+              color="warning"
+              active={category.categoryName === this.props.currentCategory}
               onClick={() => this.props.changeCategory(category)}
               key={category.id}
+              className="category-list-item"
             >
               {category.categoryName}
             </ListGroupItem>

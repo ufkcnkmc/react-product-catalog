@@ -201,6 +201,198 @@
       "quantityPerUnit": "1 unit",
       "unitPrice": 199,
       "unitsInStock": 40
+    },
+    {
+      "id": "25",
+      "categoryId": 1,
+      "productName": "OnePlus 9",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": 729,
+      "unitsInStock": 50
+    },
+    {
+      "id": "26",
+      "categoryId": 1,
+      "productName": "Sony Xperia 5 III",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": 999,
+      "unitsInStock": 30
+    },
+    {
+      "id": "27",
+      "categoryId": 1,
+      "productName": "Oppo Find X3 Pro",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": 1149,
+      "unitsInStock": 40
+    },
+    {
+      "id": "28",
+      "categoryId": 2,
+      "productName": "Lenovo ThinkPad X1 Carbon",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": 1399,
+      "unitsInStock": 25
+    },
+    {
+      "id": "29",
+      "categoryId": 2,
+      "productName": "Asus ROG Zephyrus G14",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": 1499,
+      "unitsInStock": 20
+    },
+    {
+      "id": "30",
+      "categoryId": 2,
+      "productName": "Microsoft Surface Laptop 4",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": 1199,
+      "unitsInStock": 35
+    },
+    {
+      "id": "31",
+      "categoryId": 3,
+      "productName": "Lenovo Tab P11",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": 349,
+      "unitsInStock": 70
+    },
+    {
+      "id": "32",
+      "categoryId": 3,
+      "productName": "Huawei MatePad Pro",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": 699,
+      "unitsInStock": 45
+    },
+    {
+      "id": "33",
+      "categoryId": 3,
+      "productName": "Samsung Galaxy Tab A7",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": 229,
+      "unitsInStock": 60
+    },
+    {
+      "id": "34",
+      "categoryId": 4,
+      "productName": "Garmin Forerunner 945",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": 599,
+      "unitsInStock": 40
+    },
+    {
+      "id": "35",
+      "categoryId": 4,
+      "productName": "Suunto 7",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": 399,
+      "unitsInStock": 50
+    },
+    {
+      "id": "36",
+      "categoryId": 4,
+      "productName": "Withings Steel HR",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": 179,
+      "unitsInStock": 70
+    },
+    {
+      "id": "37",
+      "categoryId": 5,
+      "productName": "Beats Studio3 Wireless",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": 349,
+      "unitsInStock": 60
+    },
+    {
+      "id": "38",
+      "categoryId": 5,
+      "productName": "Jabra Elite 85h",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": 299,
+      "unitsInStock": 75
+    },
+    {
+      "id": "39",
+      "categoryId": 5,
+      "productName": "Sennheiser Momentum 3",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": 399,
+      "unitsInStock": 40
+    },
+    {
+      "id": "40",
+      "categoryId": 6,
+      "productName": "Samsung SmartThings Hub",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": 119,
+      "unitsInStock": 90
+    },
+    {
+      "id": "41",
+      "categoryId": 6,
+      "productName": "Apple HomePod Mini",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": 99,
+      "unitsInStock": 130
+    },
+    {
+      "id": "42",
+      "categoryId": 6,
+      "productName": "Google Nest Audio",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": 129,
+      "unitsInStock": 110
+    },
+    {
+      "id": "43",
+      "categoryId": 7,
+      "productName": "Razer BlackShark V2",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": 179,
+      "unitsInStock": 55
+    },
+    {
+      "id": "44",
+      "categoryId": 7,
+      "productName": "Logitech G Pro X",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": 129,
+      "unitsInStock": 60
+    },
+    {
+      "id": "45",
+      "categoryId": 7,
+      "productName": "Corsair Virtuoso RGB Wireless",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": 249,
+      "unitsInStock": 40
+    },
+    {
+      "id": "46",
+      "categoryId": 8,
+      "productName": "Sony WH-CH710N",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": 199,
+      "unitsInStock": 80
+    },
+    {
+      "id": "47",
+      "categoryId": 8,
+      "productName": "Marshall Major IV",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": 149,
+      "unitsInStock": 70
+    },
+    {
+      "id": "48",
+      "categoryId": 8,
+      "productName": "Bowers & Wilkins PX7",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": 399,
+      "unitsInStock": 30
     }
   ]
 }

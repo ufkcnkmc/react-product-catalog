@@ -3,12 +3,15 @@ import Navi from "./Navi";
 import CategoryList from "./CategoryList";
 import ProductList from "./ProductList";
 import { Container, Row, Col } from "reactstrap";
+import './styles.css';
 
 export default class App extends Component {
   state = { currentCategory: "", products: [], cart: [] };
+  
   componentDidMount() {
     this.getProducts();
   }
+
   changeCategory = (category) => {
     this.setState({ currentCategory: category.categoryName });
     this.getProducts(category.id);
@@ -23,17 +26,7 @@ export default class App extends Component {
       .then((response) => response.json())
       .then((data) => this.setState({ products: data }));
   };
-  // addToCart = (product)=>{
-  //   let newCart= this.state.cart;
-  //   var addedItem = newCart.find(c=>c.product.id ===product.id);
-  //   if(addedItem){
-  //     addedItem.quantity+=1;
-  //   }else{
-  //     newCart.push({product:product,quantity:1});
-  //   }
 
-  //   this.setState({cart:newCart});
-  // }
   addToCart = (product) => {
     let newCart = this.state.cart;
     var addedItem = newCart.find((c) => c.product.id === product.id);
@@ -44,13 +37,15 @@ export default class App extends Component {
     }
     this.setState({ cart: newCart });
   };
+
   render() {
     let productInfo = { title: "Product List" };
     let categoryInfo = { title: "Category List" };
     return (
-      <div>
+      <div className="app-container">
         <Container>
           <Navi cart={this.state.cart} />
+          <hr />
           <Row>
             <Col xs="3">
               <CategoryList
