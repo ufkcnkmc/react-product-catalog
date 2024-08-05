@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './styles.css'; // CSS dosyasını import edin
+import './styles.css';
 import {
   Collapse,
   Navbar,
@@ -21,8 +21,8 @@ function Navi({ cart }) {
   const toggleNavbar = () => setIsOpen(!isOpen);
 
   const toggleDropdown = (e) => {
-    e.preventDefault(); // Default davranışı engelle
-    setDropdownOpen(prevState => !prevState); // Dropdown'un açık veya kapalı olma durumunu güncelle
+    e.preventDefault(); 
+    setDropdownOpen(prevState => !prevState); 
   };
 
   return (
